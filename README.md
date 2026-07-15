@@ -8,9 +8,19 @@ AI-powered website quality tester that analyzes websites and source code to dete
 
 ---
 
-## 📸 Homepage
+# 📸 Screenshots
+
+## 🏠 Homepage
 
 ![Homepage](screenshots/homepage.png)
+
+---
+
+## 🤖 AI Analysis Report
+
+The AI engine analyzes a website, detects quality issues, assigns a quality score, and generates detailed explanations with actionable fixes.
+
+![AI Report](screenshots/ai-report.png)
 
 ---
 
@@ -21,16 +31,17 @@ AI-powered website quality tester that analyzes websites and source code to dete
 - ⚡ Performance Checks
 - ♿ Accessibility Audit
 - 🔍 SEO Analysis
-- 🧠 Code Review using Gemini AI
-- 📊 Clear Reports with Fix Suggestions
+- 🧠 AI-generated explanations and fix suggestions
+- 📊 Overall Quality Score
+- 📝 Source Code Review using Gemini AI
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML
-- CSS
-- JavaScript
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 - Node.js
 - Gemini API
 - Render
@@ -60,13 +71,15 @@ http://localhost:3000
 ## 📈 Roadmap
 
 - [x] Website Analysis
-- [x] Code Review
-- [x] AI Suggestions
+- [x] AI-powered Fix Suggestions
+- [x] Source Code Review
+- [x] Live Deployment
 - [ ] Lighthouse Integration
 - [ ] PDF Report Export
 - [ ] User Authentication
 - [ ] Dashboard
-- [ ] History of Scans
+- [ ] Scan History
+- [ ] JavaScript-rendered Website Support
 
 ---
 
