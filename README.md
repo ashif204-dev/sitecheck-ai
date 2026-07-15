@@ -1,41 +1,75 @@
-# SiteCheck AI
+# 🚀 SiteCheck AI
 
-An early, local prototype of an AI-assisted website tester. Enter a public website address and optionally paste code to receive a prioritized quality report.
+AI-powered website quality tester that analyzes websites and source code to detect bugs, performance issues, accessibility problems, and provide AI-powered fix suggestions.
 
-## What it checks now
+## 🌐 Live Demo
 
-- page title, description, main heading and mobile viewport
-- placeholder links, image alt text, forms and placeholder copy
-- initial server response time
-- pasted-code risks: exposed secrets, debug logs, unfinished TODOs, unsafe HTML insertion and fetch calls without nearby error handling
-- AI-powered issue explanations and code examples through the Gemini API
+👉 https://sitecheck-ai.onrender.com
 
-## Run it
+---
 
-This prototype uses only Node.js and has no dependencies to install.
+## 📸 Homepage
 
-```powershell
-node --preserve-symlinks-main server.js
+![Homepage](screenshots/homepage.png)
+
+---
+
+## ✨ Features
+
+- 🌐 Website Quality Analysis
+- 🤖 AI-Powered Issue Detection
+- ⚡ Performance Checks
+- ♿ Accessibility Audit
+- 🔍 SEO Analysis
+- 🧠 Code Review using Gemini AI
+- 📊 Clear Reports with Fix Suggestions
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Gemini API
+- Render
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/ashif204-dev/sitecheck-ai.git
+
+cd sitecheck-ai
+
+npm install
+
+npm start
 ```
 
-Then visit `http://localhost:3000`.
+Open:
 
-## Connect real AI fixes
-
-Set your Gemini key only in the Windows Terminal session that starts the app. Never paste a key into the website or commit it to code.
-
-```powershell
-$env:GEMINI_API_KEY="your_api_key_here"
-node --preserve-symlinks-main server.js
+```
+http://localhost:3000
 ```
 
-After you run a test, click **Ask AI for exact fix** under a finding. The AI receives that finding and the optional code you pasted, then generates an explanation, a code example, and a verification step.
+---
 
-## Next features for launch
+## 📈 Roadmap
 
-1. Real browser testing with Playwright: click buttons, submit test forms, test mobile layouts, and collect screenshots.
-2. GitHub connection and ZIP upload so the report can link to the exact file and line.
-3. AI-powered issue explanations and safe patch suggestions.
-4. Accounts, test history, subscriptions and cloud deployment.
+- [x] Website Analysis
+- [x] Code Review
+- [x] AI Suggestions
+- [ ] Lighthouse Integration
+- [ ] PDF Report Export
+- [ ] User Authentication
+- [ ] Dashboard
+- [ ] History of Scans
 
-Only test websites you own or are authorized to test.
+---
+
+## 📄 License
+
+MIT License
